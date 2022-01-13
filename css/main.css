@@ -17,8 +17,14 @@ body {
   color: #039dff;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 nav {
   text-transform: uppercase;
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
   z-index: 1;
 }
 
@@ -61,6 +67,11 @@ header {
 
 header h1 {
   text-transform: uppercase;
+  font-size: 30px;
+}
+
+header p {
+  font-size: 14px;
 }
 
 header .hero-img {
@@ -113,6 +124,24 @@ header .fa-chevron-down {
   bottom: 20px;
   font-size: 30px;
   color: #fff;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
