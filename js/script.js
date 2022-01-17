@@ -15,5 +15,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', addShadow);
 });
-
-
