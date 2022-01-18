@@ -212,6 +212,56 @@ header .fa-chevron-down {
   padding-bottom: 20px;
 }
 
+.prices .price-box {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.prices .price-box tr
+h3 {
+  color: #039dff;
+  text-transform: uppercase;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.prices .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.prices .price-info {
+  margin-top: 30px;
+}
+
+.prices .price-info a {
+  text-decoration: none;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -236,6 +286,9 @@ header .fa-chevron-down {
   }
   .aoboutus-hero {
     background-image: url("../img/technology-2818664.jpg");
+  }
+  .prices .price-info {
+    font-size: 18px;
   }
 }
 
