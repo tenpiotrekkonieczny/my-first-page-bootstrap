@@ -218,14 +218,13 @@ header .fa-chevron-down {
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.prices .price-box tr
-h3 {
+.prices .price-box tr h3 {
   color: #039dff;
   text-transform: uppercase;
 }
@@ -260,6 +259,59 @@ h3 {
 
 .prices .price-info a {
   text-decoration: none;
+}
+
+.team {
+  position: relative;
+  background-image: url("../img/iocenters-2673328_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.team h2 {
+  color: #ddd;
+}
+
+.team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.055);
+  z-index: -5;
+}
+
+.team .card {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card i {
+  padding: 10px;
+}
+
+.team .card:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.team .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team .card-body {
+  height: 160px;
 }
 
 @media (min-width: 375px) {
