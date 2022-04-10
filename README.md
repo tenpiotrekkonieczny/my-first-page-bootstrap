@@ -1,4 +1,4 @@
 # my-first-page-bootstrap
-Moja pierwsza strona z wykorzystaniem bootstrapa.
+My first bootstrap website.
 
-link do strony: https://tenpiotrekkonieczny.github.io/my-first-page-bootstrap/#
+link to the page: https://tenpiotrekkonieczny.github.io/my-first-page-bootstrap/#
